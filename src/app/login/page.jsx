@@ -52,7 +52,7 @@ export default function Login() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex justify-center items-center min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-4"
+      className="flex justify-center items-center text-black min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-4"
     >
       <div className="bg-white p-8 rounded-2xl shadow-xl w-full max-w-md border border-gray-200">
         {/* Header */}
