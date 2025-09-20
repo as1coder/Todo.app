@@ -295,7 +295,7 @@ const confirmDelete = (id) => {
                 </div>
 
                 <div className="flex gap-4 mt-2 sm:mt-0">
-                  <span className="text-lg border-gray-100 w-40 border rounded px-2 flex items-center bg-white">
+                  <span className="text-lg border-gray-100 text-black w-40 border rounded px-2 flex items-center bg-white">
                     <input
                       type="checkbox"
                       className="scale-125 mr-2"

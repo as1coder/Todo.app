@@ -56,10 +56,10 @@ export default function Login() {
     >
       <div className="bg-white p-8 rounded-2xl shadow-xl w-full max-w-md border border-gray-200">
         {/* Header */}
-        <h2 className="text-3xl font-bold text-center text-gray-800 mb-2">
+        <h2 className="text-3xl font-bold text-center text-black mb-2">
           Welcome Back
         </h2>
-        <p className="text-gray-600 text-center mb-8">
+        <p className="text-black text-center mb-8">
           Sign in to continue
         </p>
 
@@ -74,7 +74,7 @@ export default function Login() {
         <div className="space-y-6">
           {/* Email Field */}
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
+            <label className="block text-sm font-medium text-black mb-2">
               Email Address *
             </label>
             <input
@@ -93,7 +93,7 @@ export default function Login() {
 
           {/* Password Field */}
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
+            <label className="block text-sm font-medium text-black mb-2">
               Password *
             </label>
             <div className="relative">
@@ -137,7 +137,7 @@ export default function Login() {
         </div>
 
         {/* Footer */}
-        <p className="text-center text-gray-600 text-sm mt-6">
+        <p className="text-center text-black text-sm mt-6">
           Don’t have an account?{' '}
           <a
             href="/signup"

@@ -71,7 +71,7 @@ export default function Signup() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="flex justify-center items-center min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-4">
+    <form onSubmit={handleSubmit} className="flex text-black justify-center items-center min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-4">
       <div className="bg-white p-8 rounded-2xl shadow-xl w-full max-w-md border border-gray-200">
         {/* Header */}
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-2">
@@ -92,7 +92,7 @@ export default function Signup() {
         <div className="space-y-6">
           {/* Name Field */}
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
+            <label className="block text-sm font-medium text-black mb-2">
               Full Name *
             </label>
             <input
@@ -110,7 +110,7 @@ export default function Signup() {
 
           {/* Email Field */}
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
+            <label className="block text-sm font-medium text-black mb-2">
               Email Address *
             </label>
             <input
@@ -128,7 +128,7 @@ export default function Signup() {
 
           {/* Password Field */}
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
+            <label className="block text-sm font-medium text-black mb-2">
               Password *
             </label>
             <div className="relative">
@@ -172,7 +172,7 @@ export default function Signup() {
         </div>
 
         {/* Footer */}
-        <p className="text-center text-gray-600 text-sm mt-6">
+        <p className="text-center text-black text-sm mt-6">
           Already have an account?{' '}
           <a 
             href="/login" 
